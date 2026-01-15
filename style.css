@@ -1,0 +1,421 @@
+/* Header Of All Pages */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #ffffff;
+}
+/* Title Of Header */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e91e63;
+}
+/* Nav Contain Links Of Different Pages*/
+.nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+
+/* Hero Section Of Home Page*/
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+    background: linear-gradient(135deg, #fce4ec, #fff);
+}
+
+/* Child div 0f Text area 1*/
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #444;
+}
+/* Button */
+.hero-btn {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+/* when touched color change */
+.hero-btn:hover {
+    background-color: #d81b60;
+}
+
+ /* Child div 0f IMG 2*/
+
+ .hero-visual img {
+    width: 420px;
+    max-width: 100%;
+}
+
+
+
+/* Mission Section Of Home Page*/
+.mission {
+    padding: 80px 60px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.mission h2 {
+    font-size: 36px;
+    color: #e91e63;
+    margin-bottom: 50px;
+}
+
+.mission-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.mission-card {
+    background-color: #fff5f7;
+    padding: 40px 30px;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0 8px 20px rgba(233, 30, 99, 0.12);
+}
+
+.mission-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.mission-card h3 {
+    color: #e91e63;
+    margin-bottom: 15px;
+}
+
+.mission-card p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* CTA SECTION */
+.cta {
+    padding: 80px 60px;
+    text-align: center;
+    background: linear-gradient(135deg, #e91e63, #f06292);
+    color: white;
+}
+
+.cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 18px;
+    max-width: 650px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.cta-btn {
+    background-color: white;
+    color: #e91e63;
+    border: none;
+    padding: 15px 40px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cta-btn:hover {
+    background-color: #ffe4ec;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #fff5f7;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.footer h3 {
+    color: #e91e63;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    max-width: 600px;
+    margin: 10px auto;
+    font-size: 15px;
+    color: #444;
+}
+
+.footer-icons span {
+    font-size: 22px;
+    margin: 0 8px;
+}
+
+.footer-copy {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #777;
+}
+
+
+
+
+
+ /* ABOUT */
+.about-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+    gap: 40px;
+}
+
+.about-block.reverse {
+    flex-direction: row-reverse;
+}
+
+.about-block-text {
+    max-width: 600px;
+}
+
+.about-block-text h2 {
+    font-size: 32px;
+    color: #e91e63;
+    margin-bottom: 15px;
+}
+
+.about-block-text p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-block-image img {
+    width: 380px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+/* HIGHLIGHT */
+.about-highlight {
+    background-color: #fff5f7;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.about-highlight h2 {
+    font-size: 32px;
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+
+.about-highlight p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 17px;
+}
+
+.highlight-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.highlight-card {
+    background: white;
+    padding: 25px 35px;
+    border-radius: 20px;
+    font-size: 18px;
+    box-shadow: 0 8px 20px rgba(233, 30, 99, 0.12);
+}
+
+
+
+
+
+/* DONATE PAGE */
+.donate-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+    gap: 40px;
+}
+
+.donate-text {
+    max-width: 600px;
+}
+
+.donate-text h2 {
+    font-size: 32px;
+    color: #e91e63;
+    margin-bottom: 15px;
+}
+
+.donate-text p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.donate-image img {
+    width: 380px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+/* DONATION IMPACT */
+.donate-impact {
+    background-color: #fff5f7;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.donate-impact h2 {
+    font-size: 32px;
+    color: #e91e63;
+    margin-bottom: 30px;
+}
+
+.impact-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.impact-card {
+    background: white;
+    padding: 25px 35px;
+    border-radius: 20px;
+    font-size: 18px;
+    box-shadow: 0 8px 20px rgba(233, 30, 99, 0.12);
+}
+
+
+
+
+
+/* CONTACT PAGE */
+.page-hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #fce4ec, #fff);
+}
+
+.contact-intro {
+    max-width: 700px;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px 80px;
+}
+
+.contact-card {
+    background: #fff5f7;
+    padding: 40px 30px;
+    border-radius: 25px;
+    width: 260px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(233, 30, 99, 0.12);
+}
+
+.contact-icon {
+    font-size: 32px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.contact-card h3 {
+    color: #e91e63;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+/* VOLUNTEER PAGE */
+.volunteer-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    gap: 40px;
+}
+
+.volunteer-text {
+    max-width: 600px;
+}
+
+.volunteer-text h2 {
+    font-size: 32px;
+    color: #e91e63;
+    margin-bottom: 15px;
+}
+
+.volunteer-text p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.volunteer-image img {
+    width: 380px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+/* HELP WAYS */
+.help-ways {
+    background-color: #fff5f7;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.help-ways h2 {
+    font-size: 32px;
+    color: #e91e63;
+    margin-bottom: 30px;
+}
+
+.help-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.help-card {
+    background: white;
+    padding: 25px 35px;
+    border-radius: 20px;
+    font-size: 18px;
+    box-shadow: 0 8px 20px rgba(233, 30, 99, 0.12);
+}
